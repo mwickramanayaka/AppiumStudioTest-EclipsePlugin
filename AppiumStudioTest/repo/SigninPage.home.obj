@@ -1,0 +1,6 @@
+#Wed Jun 09 01:37:56 IST 2021
+expression=//*[@id\='home']
+by=xpath
+context=NONINSTRUMENTED
+json={"id"\:"home","dumpElementType"\:"NONINSTRUMENTED","x"\:434,"y"\:2154,"width"\:211,"height"\:126,"onScreen"\:true,"uniqueKeys"\:"id,contentDescription,content-desc,resource-id","package"\:"com.android.systemui","hidden"\:"false","checkable"\:"false","knownSuperClass"\:"android.widget.ImageView","clickable"\:"true","content-desc"\:"Home","index"\:"0","focusable"\:"true","enabled"\:"true","resource-id"\:"com.android.systemui\:id/home","longClickable"\:"false","password"\:"false","top"\:"true","contentDescription"\:"Home","focused"\:"false","bounds"\:"[434,2154][645,2280]","long-clickable"\:"false","class"\:"android.widget.ImageView","scrollable"\:"false","selected"\:"false"}
+page=SigninPage

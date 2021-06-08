@@ -1,0 +1,6 @@
+#Wed Jun 09 01:22:39 IST 2021
+expression=//*[@contentDescription\='Back' and @id\='back']
+by=xpath
+context=NONINSTRUMENTED
+json={"id"\:"back","dumpElementType"\:"NONINSTRUMENTED","x"\:213,"y"\:2154,"width"\:211,"height"\:126,"onScreen"\:true,"uniqueKeys"\:"id,contentDescription,content-desc,resource-id","package"\:"com.android.systemui","hidden"\:"false","checkable"\:"false","knownSuperClass"\:"android.widget.ImageView","clickable"\:"true","content-desc"\:"Back","index"\:"0","focusable"\:"true","enabled"\:"true","resource-id"\:"com.android.systemui\:id/back","longClickable"\:"false","password"\:"false","top"\:"true","contentDescription"\:"Back","focused"\:"false","bounds"\:"[213,2154][424,2280]","long-clickable"\:"false","class"\:"android.widget.ImageView","scrollable"\:"false","selected"\:"false"}
+page=Register

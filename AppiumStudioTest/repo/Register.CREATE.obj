@@ -1,0 +1,6 @@
+#Wed Jun 09 01:22:43 IST 2021
+expression=//*[@text\='CREATE' and @id\='buttonCreateAccount']
+by=xpath
+context=NONINSTRUMENTED
+json={"id"\:"buttonCreateAccount","dumpElementType"\:"NONINSTRUMENTED","x"\:424,"y"\:1986,"width"\:231,"height"\:126,"onScreen"\:true,"uniqueKeys"\:"id,text,class,knownSuperClass,index,resource-id","package"\:"com.appsgallery.sagar.loginregistrationexample","hidden"\:"false","checkable"\:"false","knownSuperClass"\:"android.widget.Button","clickable"\:"true","index"\:"7","focusable"\:"true","enabled"\:"true","resource-id"\:"com.appsgallery.sagar.loginregistrationexample\:id/buttonCreateAccount","longClickable"\:"false","password"\:"false","top"\:"true","focused"\:"false","bounds"\:"[424,1986][655,2112]","long-clickable"\:"false","text"\:"CREATE","class"\:"android.widget.Button","scrollable"\:"false","selected"\:"false"}
+page=Register

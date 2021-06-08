@@ -1,0 +1,6 @@
+#Wed Jun 09 01:12:47 IST 2021
+expression=editTextUserName
+by=id
+context=NONINSTRUMENTED
+json={"id"\:"editTextUserName","dumpElementType"\:"NONINSTRUMENTED","x"\:116,"y"\:436,"width"\:922,"height"\:118,"onScreen"\:true,"uniqueKeys"\:"id,resource-id,focused","package"\:"com.appsgallery.sagar.loginregistrationexample","hidden"\:"false","checkable"\:"false","knownSuperClass"\:"android.widget.EditText","clickable"\:"true","index"\:"2","focusable"\:"true","enabled"\:"true","resource-id"\:"com.appsgallery.sagar.loginregistrationexample\:id/editTextUserName","longClickable"\:"true","password"\:"false","NAF"\:"true","top"\:"true","focused"\:"true","bounds"\:"[116,436][1038,554]","long-clickable"\:"true","class"\:"android.widget.EditText","scrollable"\:"false","selected"\:"false"}
+page=Register

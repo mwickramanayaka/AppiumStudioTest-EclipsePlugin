@@ -1,0 +1,6 @@
+#Wed Jun 09 01:22:32 IST 2021
+expression=//*[@text\='LOGIN' and @id\='login']
+by=xpath
+context=NONINSTRUMENTED
+json={"id"\:"login","dumpElementType"\:"NONINSTRUMENTED","x"\:185,"y"\:1315,"width"\:231,"height"\:126,"onScreen"\:true,"uniqueKeys"\:"id,text,index,resource-id","package"\:"com.appsgallery.sagar.loginregistrationexample","hidden"\:"false","checkable"\:"false","knownSuperClass"\:"android.widget.Button","clickable"\:"true","index"\:"5","focusable"\:"true","enabled"\:"true","resource-id"\:"com.appsgallery.sagar.loginregistrationexample\:id/login","longClickable"\:"false","password"\:"false","top"\:"true","focused"\:"false","bounds"\:"[185,1315][416,1441]","long-clickable"\:"false","text"\:"LOGIN","class"\:"android.widget.Button","scrollable"\:"false","selected"\:"false"}
+page=SigninPage

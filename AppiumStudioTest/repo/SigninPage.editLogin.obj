@@ -1,0 +1,6 @@
+#Wed Jun 09 01:22:25 IST 2021
+expression=//*[@id\='editLogin']
+by=xpath
+context=NONINSTRUMENTED
+json={"id"\:"editLogin","dumpElementType"\:"NONINSTRUMENTED","x"\:42,"y"\:605,"width"\:996,"height"\:118,"onScreen"\:true,"uniqueKeys"\:"id,resource-id,focused","package"\:"com.appsgallery.sagar.loginregistrationexample","hidden"\:"false","checkable"\:"false","knownSuperClass"\:"android.widget.EditText","clickable"\:"true","index"\:"2","focusable"\:"true","enabled"\:"true","resource-id"\:"com.appsgallery.sagar.loginregistrationexample\:id/editLogin","longClickable"\:"true","password"\:"false","NAF"\:"true","top"\:"true","focused"\:"true","bounds"\:"[42,605][1038,723]","long-clickable"\:"true","class"\:"android.widget.EditText","scrollable"\:"false","selected"\:"false"}
+page=SigninPage
