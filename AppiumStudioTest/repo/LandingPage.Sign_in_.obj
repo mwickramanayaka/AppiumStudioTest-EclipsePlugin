@@ -1,0 +1,6 @@
+#Tue Jun 08 23:52:31 IST 2021
+expression=//*[@text\='Sign in.' and @id\='sign_in_account_question_button']
+by=xpath
+context=NONINSTRUMENTED
+json={"id"\:"sign_in_account_question_button","dumpElementType"\:"NONINSTRUMENTED","x"\:680,"y"\:1233,"width"\:142,"height"\:126,"onScreen"\:true,"uniqueKeys"\:"id,text,class,knownSuperClass,resource-id","package"\:"com.medium.reader","hidden"\:"false","checkable"\:"false","knownSuperClass"\:"android.widget.Button","clickable"\:"true","index"\:"1","focusable"\:"true","enabled"\:"true","resource-id"\:"com.medium.reader\:id/sign_in_account_question_button","longClickable"\:"false","password"\:"false","top"\:"true","focused"\:"false","bounds"\:"[680,1233][822,1359]","long-clickable"\:"false","text"\:"Sign in.","class"\:"android.widget.Button","scrollable"\:"false","selected"\:"false"}
+page=LandingPage
