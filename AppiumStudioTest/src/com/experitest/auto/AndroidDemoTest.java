@@ -33,7 +33,7 @@ public class AndroidDemoTest extends BaseTest {
 		client.click(in.Repo.zone("Register.CREATE"), in.Repo.element("Register.CREATE"), 0, 1);
 		Thread.sleep(2000);
 		
-		client.click(in.Repo.zone("Register.Back"), in.Repo.element("Register.Back"), 0, 1);
+		client.launch("com.appsgallery.sagar.loginregistrationexample/.MainActivity", false, true);
 		Thread.sleep(2000);
 		
 		client.elementSendText(in.Repo.zone("SigninPage.editLogin"), in.Repo.element("SigninPage.editLogin"), 0, username);
@@ -43,10 +43,5 @@ public class AndroidDemoTest extends BaseTest {
 		
 	}
 	
-	@AfterTest
-	public void tearDown(){
-		client.click(in.Repo.zone("SigninPage.home"), in.Repo.element("SigninPage.home"), 0, 1);
-		
-	}
 		
 }
