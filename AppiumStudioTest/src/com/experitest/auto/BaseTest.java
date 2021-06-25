@@ -22,6 +22,7 @@ public class BaseTest {
 		initCloudProperties();
 		String url = getProperty("url", cloudProperties);
 		String accessKey = getProperty("accessKey", cloudProperties);
+		
 		if (accessKey != null && !accessKey.isEmpty()) {
 			gridClient = new GridClient(accessKey, url);
 			
@@ -38,6 +39,7 @@ public class BaseTest {
 			deviceQuery = adhocDeviceQuery;
 			
 		}
+		
 		client = gridClient.lockDeviceForExecution(testName, deviceQuery, 30, 300000);
 		File reporterDir = new File(System.getProperty("user.dir"), "reports");
 		reporterDir.mkdirs();
@@ -46,6 +48,7 @@ public class BaseTest {
 	}
 
 	protected String getProperty(String property, Properties props) {
+		
 		if (System.getProperty(property) != null) {
 			return System.getProperty(property);
 		} else if (System.getenv().containsKey(property)) {
