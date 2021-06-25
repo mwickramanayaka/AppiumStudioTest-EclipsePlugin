@@ -1,10 +1,12 @@
 package com.experitest.auto;
 
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 
 public class AndroidDemoTest extends BaseTest {
@@ -20,6 +22,12 @@ public class AndroidDemoTest extends BaseTest {
 
 	@Test
 	public void signin() throws InterruptedException{
+		ExtentSparkReporter htmlReporter;
+		ExtentReports extent;
+		htmlReporter = new ExtentSparkReporter("extent.html");
+
+		extent = new ExtentReports();
+		extent.attachReporter(htmlReporter);
 
 		String username = "Steve";
 		String password = "1qaz2wsx";

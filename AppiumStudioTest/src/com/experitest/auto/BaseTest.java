@@ -22,21 +22,25 @@ public class BaseTest {
 		String accessKey = getProperty("accessKey", cloudProperties);
 		if (accessKey != null && !accessKey.isEmpty()) {
 			gridClient = new GridClient(accessKey, url);
+			
 		} else {
 			String username = getProperty("username", cloudProperties);
 			String password = getProperty("password", cloudProperties);
 			String project = getProperty("project", cloudProperties);
 			gridClient = new GridClient(username, password, project, url);
+			
 		}
 		String adhocDeviceQuery = System.getenv("deviceQuery");
 		if (adhocDeviceQuery != null) {
 			System.out.println("[INFO] Redirecting test to the current device.");
 			deviceQuery = adhocDeviceQuery;
+			
 		}
 		client = gridClient.lockDeviceForExecution(testName, deviceQuery, 30, 300000);
 		File reporterDir = new File(System.getProperty("user.dir"), "reports");
 		reporterDir.mkdirs();
 		client.setReporter("xml", reporterDir.getAbsolutePath(), testName);
+		
 	}
 
 	protected String getProperty(String property, Properties props) {

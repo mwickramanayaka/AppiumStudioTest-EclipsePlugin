@@ -7,5 +7,14 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="com.experitest.SEETEST_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/manul.wickramanayaka/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar" sourcepath="C:/Users/manul.wickramanayaka/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.aventstack"/>
+			<attribute name="maven.artifactId" value="extentreports"/>
+			<attribute name="maven.version" value="5.0.8"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

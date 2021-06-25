@@ -34,6 +34,9 @@ dependencies {
 	compile 'org.testng:testng:6.9.10'
 	compile 'com.experitest:seetest-client:21.4'
 	compile 'com.experitest:repo:+'
+	
+    implementation group: 'com.aventstack', name: 'extentreports', version: '5.0.8'
+
 }
 
 test {
