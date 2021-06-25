@@ -12,11 +12,13 @@ import com.experitest.client.Client;
 import com.experitest.client.GridClient;
 
 public class BaseTest {
+	
 	protected Client client = null;
 	protected GridClient gridClient = null;
 	protected Properties cloudProperties = new Properties();
 
 	public void init(String deviceQuery, String testName) throws Exception {
+		
 		initCloudProperties();
 		String url = getProperty("url", cloudProperties);
 		String accessKey = getProperty("accessKey", cloudProperties);
